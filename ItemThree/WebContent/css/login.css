@@ -1,0 +1,128 @@
+#fame {  /* 大的框架*/
+	
+	
+	width: 1500px;
+	height: 800px;
+	/*粉色*/
+
+}
+#middle{	/* 中间部分*/
+	position: absolute;
+	width: 1442px;
+	top: 240px;
+	height: 500px;
+	/*蓝色*/
+	left: 17px;
+
+	}
+#head{
+	position: absolute;
+	width: 298px;
+	left: 75px;
+	top: 127px;
+	height: 346px;
+	}
+#option{	/* 单选选项*/
+	position: absolute;
+	/*绿色*/
+	width: 1500px;
+	height: 70px;
+	top: 175px;
+	left: 500px;
+	}
+#logo{
+	position: absolute;
+	left: -377px;
+	top: -301px;
+	width: 960px;
+	height: 94px;
+	}
+#bottom{	/*底部*/
+	position: absolute;
+	height: 40px;
+	top: 889px;
+	z-index:100px
+	width:100px;
+	left: 18px;
+	width: 1445px;
+	font-size: 24px;
+	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+	}
+/*--------------------------学生注册的框架------------------------------------*/
+#regist{	
+	position: absolute;
+	width:460px;
+	height:450px;
+	background-color:#F0F8FF;
+	top:8%;
+	left:30%;
+	opacity: 0.8;
+	filter: alpha(opacity=40);
+	border-radius:9px;
+	}
+#regist1{    	/* 学生注册内容*/
+	position: absolute;
+	left:8%;
+	top:25%;
+	}
+#sub{    	/* 注册按钮的位置*/
+	position: absolute;
+	left:30%;
+	top:93%;	
+	}
+#verification{
+	position: absolute;
+	left:5%;
+}	
+/*--------------------------------------------教师注册信息----------------------------------------------*/
+#regist3{
+position: absolute;
+	width:460px;
+	height:520px;
+	background-color:#F0F8FF;
+	top:8%;
+	left:30%;
+	opacity: 0.8;
+	filter: alpha(opacity=40);
+	border-radius:9px;
+	}	
+#reg{    	/* 教师注册内容位置*/
+	position: absolute;
+	left:8%;
+	top:20%;
+	}
+/*---------------------------学生注册信息-----------------------------------*/
+#regist4{		/*学生组织框架*/
+position: absolute;
+	width:460px;
+	height:500px;
+	background-color:#F0F8FF;
+	top:6%;
+	left:30%;
+	opacity: 0.8;
+	filter: alpha(opacity=40);
+	border-radius:9px;
+	}	
+#reg1{    	/* 学生组织注册内容位置*/
+	position: absolute;
+	left:8%;
+	top:24%;
+	}
+/*------------------------------------------------登录界面----------------------------------*/
+#hello1{
+	position:absolute;
+	left:30%;
+	top:10%;
+	width:500px;
+	height:320px;
+	background-color:#3366CC;
+
+}
+#index_add{
+	position:absolute;
+	left:30%;
+	top:20%;
+	
+}
+	

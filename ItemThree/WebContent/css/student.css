@@ -1,0 +1,227 @@
+#top #Head_1 {
+    background-image: url("img/beijing1.jpg");
+    height: 100px;
+    background-size:100%;
+}
+#top #Head_1 #Head_1_Logo span {
+    font-size: 40px;
+    font-weight: 800;
+    position: absolute;
+    top:30px;
+    left: 38%;
+}
+#top #Head_1 #Head_1_FunctionButton {
+    float: left;
+    position: absolute;
+    right: 3px;
+    top: 80px;
+    margin-right: 15px;
+}
+#left{
+    height: 550px;
+    width: 15%;
+    background-color: powderblue;
+    float: left;
+}
+#left ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: #428bca;
+    width: 80%;
+    position: relative;
+    top:30px;
+    font-family: 新宋体;
+    text-align: center;
+}
+#left li{
+    border: solid 1px white;
+    height: 25px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.lef{
+    text-align: left;
+    font-size: 20px;
+}
+.cen:hover{
+    color: black;
+    background-color:powderblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cen span{
+    font-size: 10px;
+    color: red;
+}
+
+#right,#right1,#right2,#right3,#right4,#right5{
+    width: 85%;
+    height: 550px;
+    float: right;
+}
+#right h1{
+    position: relative;
+    left: 20%;
+}
+
+#right,#right5 table tr:first-child{
+    background:#428bca;
+    color:#fff;
+    font-weight:bold;
+}
+#right,#right5 td{
+    padding:5px 10px;
+    text-align:center;
+    border-right:1pt solid #C1DAD7;
+    border-bottom:1pt solid #C1DAD7;
+}
+#right,#right5 tr:nth-of-type(odd){background:#39b3d7}
+#right,#right5 tr:hover{ background: #ebebeb;}
+.d0{
+    width: 100%;
+    height: 35px;
+    background-color: powderblue;
+}
+.d0 span{
+    position: relative;
+    top:4px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.d1{
+    position: relative;
+    top:10px;
+    left: 5%;
+    width: 90%;
+    height: 450px;
+}
+.d2{
+    width: 100%;
+    height: 35px;
+}
+.d2 .butto{
+    position: relative;
+    left: 10px;
+}
+.button1{
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.button1:hover {
+    background-color: peachpuff;
+    color: black;
+}
+#right1 img{
+    height: 50px;
+    width: 100px;
+}
+#r2d{
+    width: 600px;
+    height: 350px;
+    position: relative;
+    left: 20%;
+    top:10%;
+    background-color:#bce8f1;
+    box-shadow:0px 0px  10px 5px #aaa;
+    border-radius: 10px;
+}
+#r2d1{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    left: 30%;
+    top:10%;
+}
+#r2d1 .butto1{
+    font-size: 18px;
+    margin: 15px 10px;
+    padding: 5px 20px;
+    position: relative;
+    left: 15%;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+caption{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+th{height: 30px}
+th,td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.i1,.i2,.i3,.i4,.i5,.i6{height: 40px}
+.i7{height: 60px}
+.i9{
+    height: 90px;
+}
+#fot input{
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: lightgrey;
+    position: relative;
+    left: 35%;
+    top:10px;
+}
+#fot input:hover{
+    background-color: grey;
+    color: white;
+}
+.rigd{
+    width: 700px;
+    height: 500px;
+    position: relative;
+    left: 20%;
+    top:30px;
+    background-color: #bce8f1;
+    box-shadow:0px 0px  10px 5px #aaa;
+    border-radius: 10px;
+}
+.rigd1{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left: 20%;
+    top:20px;
+}
+.rigd1 form .butto2{
+    position: relative;
+    left: 30%;
+    top:20px;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+#foot{
+    width: 100%;
+    height: 70px;
+    background-color: lightgrey;
+    text-align: center;
+    float: left;
+    position: relative;
+    top:10px;
+}
+#foot .fot .ft{
+    font-size: 20px;
+    padding: 10px;
+}
+.fot{
+    position: relative;
+    top:20px;
+}

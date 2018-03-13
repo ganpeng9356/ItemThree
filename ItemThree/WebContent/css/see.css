@@ -1,0 +1,274 @@
+.daohang:link,.daohang:visited
+{
+    display:block;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+    padding:10px 15px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.daohang:hover,.daohang:active
+{
+    background-color: peachpuff;
+}
+nav {
+    margin:0 auto;
+    text-align:center;
+}
+#t {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-image: url("../img/2.png");
+    height: 40px;
+    padding:29px;
+    position:relative;
+    opacity:0.6;
+    filter:alpha(opacity=40);
+}
+nav ul ul {
+    display:none;
+}
+nav ul li {
+    list-style-type:none;
+    float:left;
+}
+nav ul::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+nav ul li a {
+    display:block;
+    font-size: 18px;
+    color:#000;
+    text-decoration:none;
+    font-family:"微软雅黑";
+}
+nav ul li:hover > ul {
+    display:block;
+}
+nav ul ul {
+    background-color: brown;
+    border-radius:0;
+    position:absolute;
+    padding:0;
+}
+nav ul ul li {
+    float:none;
+    background-color:white;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+#top{
+    background-image: url("../img/beijing1.jpg");
+    height: 100px;
+    width: 100%;
+}
+#top1{float: left;}
+#top2{float: left;}
+#top3{float: right;}
+.w{
+    opacity:0.6;
+    filter:alpha(opacity=40);
+}
+
+#bod{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top:20px;
+}
+#my1{
+    width: 10%;
+    height: 500px;
+    position: relative;
+    left: 9%;
+    top:30px;
+}
+.m{
+    border: solid 1px black;
+    width: 140px;
+    height: 50px;
+}
+#my1 th{
+    background-color: powderblue;
+    font-size: 18px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.m:hover,.m:hover{
+    background-color: burlywood;
+}
+#my1 td{
+    text-align: center;
+    font-size: 18px;
+    background-color: gainsboro;
+}
+#right1,#right2,#right3,#right4,#right5,#right6,#right7{
+    width: 900px;
+    height: 550px;
+    border: solid 1px black;
+    position: absolute;
+    top:30px;
+    left: 23%;
+    box-shadow: 10px 20px 5px #808080;
+}
+#right1 div{
+    width: 700px;
+    position: relative;
+    left: 10%;
+    top:20px;
+}
+#right1 div img{
+    width: 150px;
+    height: 150px;
+}
+#right1 div span{
+    font-size: 20px;
+    font-weight: bold;
+}
+#right2 .d1{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 20%;
+    top:20px;
+    box-shadow:0px 0px  10px 5px #aaa;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+#right2 .d2{
+    width: 320px;
+    height: 400px;
+    position: relative;
+    left: 18%;
+    top:30px;
+}
+#right2 div div form{
+    position: relative;
+    left: 25%;
+    bottom: 9%;
+}
+#right2 div div .inp{
+    position: relative;
+    bottom: 35px;
+}
+.button{
+    position: relative;
+    left: 80px;
+    font-size: 18px;
+    padding: 5px 32px;
+}
+#right3 .d1{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 25%;
+    top:15%;
+    box-shadow:0px 0px  10px 5px #aaa;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+#right3 .d2{
+    width: 320px;
+    height: 400px;
+    position: relative;
+    left: 18%;
+    top:30%;
+}
+#right3 .d3{
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 25%;
+    top:30px;
+}
+#right4 table tr:first-child{
+    background:black;
+    color:#fff;
+    font-weight:bold;
+}
+#right4 td{
+    padding:5px 10px;
+    text-align:center;
+    border-right:1pt solid #C1DAD7;
+    border-bottom:1pt solid #C1DAD7;
+}
+#right4 tr:nth-of-type(odd){background:powderblue} /* odd 标识奇数行，even标识偶数行 */
+#right4 tr:hover{ background: #ebebeb;}
+#right4 table{
+    position: relative;
+    top:30px;
+}
+#right5 table tr:first-child{
+    background:black;
+    color:#fff;
+    font-weight:bold;
+}
+#right5 td{
+    padding:5px 10px;
+    text-align:center;
+    border-right:1pt solid #C1DAD7;
+    border-bottom:1pt solid #C1DAD7;
+}
+#right5 tr:nth-of-type(odd){background:powderblue} /* odd 标识奇数行，even标识偶数行 */
+#right5 tr:hover{ background: #ebebeb;}
+#right5 table{
+    position: relative;
+    top:30px;
+}
+#right6 table tr:first-child{
+    background:black;
+    color:#fff;
+    font-weight:bold;
+}
+#right6 td{
+    padding:5px 10px;
+    text-align:center;
+    border-right:1pt solid #C1DAD7;
+    border-bottom:1pt solid #C1DAD7;
+}
+#right6 tr:nth-of-type(odd){background:powderblue} /* odd 标识奇数行，even标识偶数行 */
+#right6 tr:hover{ background: #ebebeb;}
+#right6 table{
+    position: relative;
+    top:30px;
+}
+#right7 table tr:first-child{
+    background:black;
+    color:#fff;
+    font-weight:bold;
+}
+#right7 td{
+    padding:5px 10px;
+    text-align:center;
+    border-right:1pt solid #C1DAD7;
+    border-bottom:1pt solid #C1DAD7;
+}
+#right7 tr:nth-of-type(odd){background:powderblue} /* odd 标识奇数行，even标识偶数行 */
+#right7 tr:hover{ background: #ebebeb;}
+#right7 table{
+    position: relative;
+    top:30px;
+}
+#foot{
+    width: 100%;
+    height: 70px;
+    background-color: paleturquoise;
+    text-align: center;
+    position: relative;
+    top:20px;
+}
+#foot .fot .ft{
+    font-size: 20px;
+    padding: 10px;
+}
+.fot{
+    position: relative;
+    top:20px;
+}
